@@ -15,7 +15,11 @@ class MainActivity : AppCompatActivity() {
         val rollButton: Button = findViewById(R.id.roll_button)
 
         rollButton.setOnClickListener {
-            Toast.makeText(this, "Dice Rolled", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this,
+                "Dice Rolled",
+                Toast.LENGTH_SHORT
+            ).show()
         }
     }
 }
